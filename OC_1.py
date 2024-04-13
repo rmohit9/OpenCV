@@ -55,7 +55,7 @@
 
 
 
-#EDGE DETECTOR
+# EDGE DETECTOR
 # path=r"C:\Users\Dell\OneDrive\Desktop\git\Resources\Lena.jpg"
 # img = cv2.imread(path) # to read the image 
 # imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -70,7 +70,7 @@
 
 
 
-##IMAGE DILATION (use for thickening of the edges)
+# #IMAGE DILATION (use for thickening of the edges)
 # import cv2
 # import numpy as np
 
@@ -93,7 +93,7 @@
 
 
 
-#IMAGE EROSION (use for making the edges thin)
+# #IMAGE EROSION (use for making the edges thin)
 # import cv2
 # import numpy as np
 
@@ -115,6 +115,7 @@
 # cv2.imshow("Image dilation", imgDilation)
 # cv2.imshow("Image Erosion", imgEroded)
 # cv2.waitKey(0)
+
 
 
 
